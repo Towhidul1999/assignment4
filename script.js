@@ -1,4 +1,5 @@
-// First Class Calculating
+
+// First Class Calculating Start
 
 document.getElementById("ticket-increase").addEventListener("click", function(){
     handleTicketChange(true);
@@ -24,7 +25,9 @@ function handleTicketChange(isIncrease) {
    calculateTotal();
 };
 
-// Economy Class Calculating
+// First Class Calculating End
+
+// Economy Class Calculating Start
 
 document.getElementById("economy-ticket-increase").addEventListener("click", function(){
     economyTicketChange(true);
@@ -50,6 +53,8 @@ function economyTicketChange(isIncrease) {
    calculateTotal();
 };
 
+// Economy Class Calculating End
+
 // Grandtotal Calculating
 
 function calculateTotal() {
@@ -68,6 +73,9 @@ function calculateTotal() {
     const grandTotal = totalPrice + tax;
     document.getElementById("total-amount").innerText = "$" + grandTotal;
 };
+// Grandtotal Calculating End
+
+// Book Now Button HandlEing Start
 
     const bookingButton = document.getElementById("booking-button");
     bookingButton.addEventListener("click", function(){
@@ -76,3 +84,5 @@ function calculateTotal() {
         const bookedSucces = document.getElementById("booking-succesfull");
         bookedSucces.style.display = "block";
 });
+
+// Book Now Button HandlEing End
