@@ -120,3 +120,7 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+#booking-succesfull{
+    display: none;
+    color: rgb(208, 255, 0);
+}

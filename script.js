@@ -68,3 +68,11 @@ function calculateTotal() {
     const grandTotal = totalPrice + tax;
     document.getElementById("total-amount").innerText = "$" + grandTotal;
 };
+
+    const bookingButton = document.getElementById("booking-button");
+    bookingButton.addEventListener("click", function(){
+        const form = document.getElementById("form");
+        form.style.display = "none";
+        const bookedSucces = document.getElementById("booking-succesfull");
+        bookedSucces.style.display = "block";
+});
