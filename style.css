@@ -123,4 +123,6 @@ nav ul li a:hover, a.active{
 #booking-succesfull{
     display: none;
     color: rgb(208, 255, 0);
+    background-color: green;
+    border-radius: 5px;text-align: center;
 }
